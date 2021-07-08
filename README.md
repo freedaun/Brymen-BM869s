@@ -18,8 +18,8 @@ This should result in something like:
     0:10001:  09.824mA DC,  00.01mA AC
 
 With a line for each multimeter you have connected. Line elements:
-- `[0]` indicates which multimeter
-- `10001` is a label, which increments for each multimeter & sample
+- `0:` indicates which multimeter
+- `10001:` is a label, which increments for each multimeter & sample
 - `09.824mA DC` readout of the main screen
 - `00.01mA AC` readout of the second screen, when applicable
 
