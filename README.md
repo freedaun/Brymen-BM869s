@@ -40,7 +40,7 @@ If it complains about pywintypes:
 - put `pythoncom39.dll` and `pywintypes39.dll` in `C:\Users\<user>\AppData\Roaming\Python\Python39\site-packages\win32\lib`
 
 If it complains about `hidapi`:
-- find Python.exe and place the [hidapi files](https://github.com/signal11/hidapi/releases) next to it
+- find Python.exe and place the [hidapi files](https://github.com/libusb/hidapi/releases/download/hidapi-0.10.1/hidapi-win.zip) next to it
 
 This script accesses the HID interface, per the protocol documented by Brymen and on eevblog, and properly enumerates all HID devices under the Brymen VID (0x0820) and PID (0x0001). 
 
