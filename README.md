@@ -4,11 +4,11 @@
 
 Usage from windows cmd: 
     
-    python brymen-BM869spy
+    python brymen-BM869s.py
     
 This should result in something like:
 
-    D:\=shared-firmwares=\end-of-line-test\python>python brymen-BM869s.py
+    C:\python>python brymen-BM869s.py
     [0]: Brymen Superior DMM
     [1]: Brymen Superior DMM
     1:10000:  00.001mA DC,  00.01mA AC
