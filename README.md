@@ -1,2 +1,42 @@
 # Brymen-BM869s
-Logger of Brymen BM869s data
+
+### Logger of Brymen BM869s data
+
+Usage from windows cmd: 
+    
+    python brymen-BM869spy
+    
+This should result in something like:
+
+    D:\=shared-firmwares=\end-of-line-test\python>python brymen-BM869s.py
+    [0]: Brymen Superior DMM
+    [1]: Brymen Superior DMM
+    1:10000:  00.001mA DC,  00.01mA AC
+    0:10000:  09.824mA DC,  00.01mA AC
+    0:10001:  09.824mA DC,  00.01mA AC
+
+With a line for each multimeter you have connected. 
+
+The same data is also written to `brymen.log`, for processing by another utility. 
+
+Up to 4 backups are maintained, one for each session. 
+
+If the script fails, execute again (the Brymen may need to wake up). 
+
+
+### Installation
+
+This script needs:
+
+    python -m pip install wheel
+    python -m pip install hid
+    python -m pip install xlwings
+
+Still, depending on the PC/Python install it may not find some DLL's (apparently even Python doesn't work predictably). Some suggestions:
+
+If it complains about pywintypes: 
+- put `pythoncom39.dll` and `pywintypes39.dll` in `C:\Users\<user>\AppData\Roaming\Python\Python39\site-packages\win32\lib`
+
+If it complains about `hidapi`:
+- find Python.exe and place the [hidapi files](https://github.com/signal11/hidapi/releases) next to it
+
