@@ -2,6 +2,8 @@
 
 ### Logger of Brymen BM869s data
 
+One or more BrymenBM869s (or similar) must be connected to the PC using a standard data-cable. 
+
 Usage from windows cmd: 
     
     python brymen-BM869s.py
@@ -39,4 +41,7 @@ If it complains about pywintypes:
 
 If it complains about `hidapi`:
 - find Python.exe and place the [hidapi files](https://github.com/signal11/hidapi/releases) next to it
+
+This script accesses the HID interface, per the protocol documented by Brymen and on eevblog, and properly enumerates all HID devices under the Brymen VID (0x0820) and PID (0x0001). 
+
 
