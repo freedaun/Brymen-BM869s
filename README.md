@@ -46,5 +46,7 @@ If it complains about pywintypes:
 
 This script accesses the HID interface, per the protocol documented by Brymen and on eevblog, and properly enumerates all HID devices under the Brymen VID (0x0820) and PID (0x0001). The script is easily extensible to support any number of multimeters. 
 
+Attribution: [Brymen869s-XmlLib](https://github.com/DawOp/Brymen869s-XmlLib) provided inspiration. 
+
 
 
