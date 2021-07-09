@@ -2,7 +2,7 @@
 
 ### Logger of Brymen BM869s data
 
-One or more BrymenBM869s (or similar) must be connected to the PC using a standard data-cable. 
+One or two BrymenBM869s (or similar) must be connected to the PC using a standard data-cable. 
 
 Usage from windows cmd: 
     
