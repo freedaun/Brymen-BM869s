@@ -32,6 +32,7 @@ If the script fails, execute again (the Brymen may need to wake up).
 
 This script needs:
 
+    python -m pip install pyserial
     python -m pip install hid               # succeeds but didn't work on 2 out of 3 PC's tested
 
 Depending on the PC/Python install it may not find some DLL's (apparently even Python doesn't work predictably). If it complains about `hidapi`:
