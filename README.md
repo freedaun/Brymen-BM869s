@@ -23,9 +23,7 @@ With a line for each multimeter you have connected. Line elements:
 - `09.824mA DC` readout of the main screen
 - `00.01mA AC` readout of the second screen, when applicable
 
-The same data is also written to `brymen.log`, for processing by another utility. Up to 4 backups are maintained, one for each session. 
-
-If the script fails, execute again (the Brymen may need to wake up). 
+The same data is also written to `brymen.log`, for processing by another utility. Several backups are maintained, one for each session. 
 
 
 ### Installation
